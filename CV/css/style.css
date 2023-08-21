@@ -1,6 +1,6 @@
 
 body{
-    background-color: lightgrey;
+    background-color: #8b8b8b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,13 +21,16 @@ body{
 
 .cv .gauche{
     position: relative;
-    background-color: gray;
+    background-color:#e7e7e7;
     padding: 40px;
+  
+    
 }
 .cv .droite{
     position: relative;
-    background-color: white;
+    background-color:rgb(255, 255, 255);
     padding: 40px;
+    
 }
 
 .profiltexte{
@@ -36,11 +39,11 @@ body{
     flex-direction: column;
     text-align: center;
     padding-bottom: 20px;
-    border-bottom:1px solid rgba(255, 255, 255, 0.3);
+    border-bottom:1px solid rgba(43, 43, 43, 0.3);
 }
 
 .profiltexte h2{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2em;
 }
 
@@ -53,7 +56,7 @@ body{
 
 .contact{
     padding-top: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .contact h3{
